@@ -1,7 +1,7 @@
 Muse Theme
 ============
 
-Muse is a Photography Theme built for Genesis Framework and thus requires the Genesis Framework which can be purchased at <a href="http://wpspeak.com/go/genesis-framework/" target="_blank">StudioPress</a> website.
+Muse is a Photography Theme built for Genesis Framework and thus requires the Genesis Framework which can be purchased from <a href="http://wpspeak.com/go/genesis-framework/" target="_blank">StudioPress</a> website.
 
 
 Developed by WPSpeak
