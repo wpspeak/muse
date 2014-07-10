@@ -1,8 +1,8 @@
 <?php
 
 //* Simple Social Icon Defaults
-add_filter( 'simple_social_default_styles', 'photog_social_default_styles' );
-function photog_social_default_styles( $defaults ) {
+add_filter( 'simple_social_default_styles', 'muse_social_default_styles' );
+function muse_social_default_styles( $defaults ) {
 
 	$args = array(
 		'alignment'              => 'aligncenter',

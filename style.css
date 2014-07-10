@@ -1,7 +1,7 @@
 /*  
 Theme Name: Muse  
 Theme URI: http://wpspeak.com/themes/muse/  
-Description: Photography theme for Genesis Framework
+Description: museraphy theme for Genesis Framework
 Author: WPSpeak
 Author URI: http://wpspeak.com/ 
 Version: 1.0.0 
@@ -1299,240 +1299,240 @@ p.form-submit,
 /*  Red
 --------------------------------------------- */
 
-.photog-red a,
-.photog-red h1,
-.photog-red h2,
-.photog-red h3,
-.photog-red h4,
-.photog-red h5,
-.photog-red h6,
-.photog-red .entry-title a,
-.photog-red .sidebar .widget-title a,
-.photog-red .site-title a,
-.photog-red .site-title a:hover,
-.photog-red .genesis-nav-menu a:hover,
-.photog-red .genesis-nav-menu .current-menu-item > a {
+.muse-red a,
+.muse-red h1,
+.muse-red h2,
+.muse-red h3,
+.muse-red h4,
+.muse-red h5,
+.muse-red h6,
+.muse-red .entry-title a,
+.muse-red .sidebar .widget-title a,
+.muse-red .site-title a,
+.muse-red .site-title a:hover,
+.muse-red .genesis-nav-menu a:hover,
+.muse-red .genesis-nav-menu .current-menu-item > a {
 	color: #d33b3c;
 }
 
-.photog-red a:hover,
-.photog-red .genesis-nav-menu a,
-.photog-red .genesis-nav-menu .sub-menu .current-menu-item > a,
-.photog-red .genesis-nav-menu .sub-menu a:hover,
-.photog-red .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.photog-red .widget-title {  
+.muse-red a:hover,
+.muse-red .genesis-nav-menu a,
+.muse-red .genesis-nav-menu .sub-menu .current-menu-item > a,
+.muse-red .genesis-nav-menu .sub-menu a:hover,
+.muse-red .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.muse-red .widget-title {  
 	color: #fff;
 }
 
-.photog-red input:focus,
-.photog-red textarea:focus {
+.muse-red input:focus,
+.muse-red textarea:focus {
 	border: 1px solid #d33b3c;
 }
 
-.photog-red button,
-.photog-red input[type="button"],
-.photog-red input[type="reset"],
-.photog-red input[type="submit"],
-.photog-red .button,
-.photog-red .genesis-nav-menu .sub-menu a,
-.photog-red .archive-pagination li a:hover,
-.photog-red .archive-pagination .active a,
-.photog-red .hover-icon {
+.muse-red button,
+.muse-red input[type="button"],
+.muse-red input[type="reset"],
+.muse-red input[type="submit"],
+.muse-red .button,
+.muse-red .genesis-nav-menu .sub-menu a,
+.muse-red .archive-pagination li a:hover,
+.muse-red .archive-pagination .active a,
+.muse-red .hover-icon {
 	background-color: #d33b3c;
 }
 
-.photog-red button:hover,  
-.photog-red input:hover[type="button"],
-.photog-red input:hover[type="reset"],
-.photog-red input:hover[type="submit"],
-.photog-red .button:hover {
+.muse-red button:hover,  
+.muse-red input:hover[type="button"],
+.muse-red input:hover[type="reset"],
+.muse-red input:hover[type="submit"],
+.muse-red .button:hover {
 	background-color: #fff;
 	color: #333;
 }
 
-.photog-red .archive-description,
-.photog-red .author-box {
+.muse-red .archive-description,
+.muse-red .author-box {
 	border-top: 3px solid #d33b3c;
 	border-bottom: 1px solid #d33b3c;
 }
 
-.photog-red .site-header .wrap {
+.muse-red .site-header .wrap {
 	border-bottom: 3px solid #d33b3c; 
 }
 
-.photog-red .genesis-nav-menu {
+.muse-red .genesis-nav-menu {
 	border-bottom: 1px solid #d33b3c;  
 }
 
-.photog-red .sidebar .widget,
-.photog-red .footer-widgets .wrap,
-.photog-red .site-footer .wrap {
+.muse-red .sidebar .widget,
+.muse-red .footer-widgets .wrap,
+.muse-red .site-footer .wrap {
 	border-top: 3px solid #d33b3c;
 }
 
-.photog-red .genesis-nav-menu .sub-menu a:hover, 
-.photog-red .genesis-nav-menu .sub-menu .current-menu-item > a,
-.photog-red .genesis-nav-menu .sub-menu .current-menu-item > a:hover { 
+.muse-red .genesis-nav-menu .sub-menu a:hover, 
+.muse-red .genesis-nav-menu .sub-menu .current-menu-item > a,
+.muse-red .genesis-nav-menu .sub-menu .current-menu-item > a:hover { 
 	background-color: #c82d2e;  
 }
 
 /*  Blue
 --------------------------------------------- */
 
-.photog-blue a,
-.photog-blue h1,
-.photog-blue h2,
-.photog-blue h3,
-.photog-blue h4,
-.photog-blue h5,
-.photog-blue h6,
-.photog-blue .entry-title a,
-.photog-blue .sidebar .widget-title a,
-.photog-blue .site-title a,
-.photog-blue .site-title a:hover,
-.photog-blue .genesis-nav-menu a:hover,
-.photog-blue .genesis-nav-menu .current-menu-item > a {
+.muse-blue a,
+.muse-blue h1,
+.muse-blue h2,
+.muse-blue h3,
+.muse-blue h4,
+.muse-blue h5,
+.muse-blue h6,
+.muse-blue .entry-title a,
+.muse-blue .sidebar .widget-title a,
+.muse-blue .site-title a,
+.muse-blue .site-title a:hover,
+.muse-blue .genesis-nav-menu a:hover,
+.muse-blue .genesis-nav-menu .current-menu-item > a {
 	color: #3498db;
 }
 
-.photog-blue a:hover,
-.photog-blue .genesis-nav-menu a,
-.photog-blue .genesis-nav-menu .sub-menu .current-menu-item > a,
-.photog-blue .genesis-nav-menu .sub-menu a:hover,  
-.photog-blue .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.photog-blue .widget-title {  
+.muse-blue a:hover,
+.muse-blue .genesis-nav-menu a,
+.muse-blue .genesis-nav-menu .sub-menu .current-menu-item > a,
+.muse-blue .genesis-nav-menu .sub-menu a:hover,  
+.muse-blue .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.muse-blue .widget-title {  
 	color: #fff;
 }
 
-.photog-blue input:focus,
-.photog-blue textarea:focus {
+.muse-blue input:focus,
+.muse-blue textarea:focus {
 	border: 1px solid #3498db;
 }
 
-.photog-blue button,
-.photog-blue input[type="button"],
-.photog-blue input[type="reset"],
-.photog-blue input[type="submit"],
-.photog-blue .button,
-.photog-blue .genesis-nav-menu .sub-menu a,
-.photog-blue .archive-pagination li a:hover,
-.photog-blue .archive-pagination .active a,
-.photog-blue .hover-icon {
+.muse-blue button,
+.muse-blue input[type="button"],
+.muse-blue input[type="reset"],
+.muse-blue input[type="submit"],
+.muse-blue .button,
+.muse-blue .genesis-nav-menu .sub-menu a,
+.muse-blue .archive-pagination li a:hover,
+.muse-blue .archive-pagination .active a,
+.muse-blue .hover-icon {
 	background-color: #3498db;
 }
 
-.photog-blue button:hover,  
-.photog-blue input:hover[type="button"],
-.photog-blue input:hover[type="reset"],
-.photog-blue input:hover[type="submit"],
-.photog-blue .button:hover {
+.muse-blue button:hover,  
+.muse-blue input:hover[type="button"],
+.muse-blue input:hover[type="reset"],
+.muse-blue input:hover[type="submit"],
+.muse-blue .button:hover {
 	background-color: #fff;
 	color: #333;
 }
 
-.photog-blue .archive-description,
-.photog-blue .author-box {
+.muse-blue .archive-description,
+.muse-blue .author-box {
 	border-top: 3px solid #3498db;
 	border-bottom: 1px solid #3498db;
 }
 
-.photog-blue .site-header .wrap {
+.muse-blue .site-header .wrap {
 	border-bottom: 3px solid #3498db; 
 }
 
-.photog-blue .genesis-nav-menu {
+.muse-blue .genesis-nav-menu {
 	border-bottom: 1px solid #3498db;  
 }
 
-.photog-blue .sidebar .widget,
-.photog-blue .footer-widgets .wrap,
-.photog-blue .site-footer .wrap {
+.muse-blue .sidebar .widget,
+.muse-blue .footer-widgets .wrap,
+.muse-blue .site-footer .wrap {
 	border-top: 3px solid #3498db;
 }
 
-.photog-blue .genesis-nav-menu .sub-menu a:hover, 
-.photog-blue .genesis-nav-menu .sub-menu .current-menu-item > a,
-.photog-blue .genesis-nav-menu .sub-menu .current-menu-item > a:hover { 
+.muse-blue .genesis-nav-menu .sub-menu a:hover, 
+.muse-blue .genesis-nav-menu .sub-menu .current-menu-item > a,
+.muse-blue .genesis-nav-menu .sub-menu .current-menu-item > a:hover { 
 	background-color: #258cd1;  
 }
 
 /*  Green
 --------------------------------------------- */
 
-.photog-green a,
-.photog-green h1,
-.photog-green h2,
-.photog-green h3,
-.photog-green h4,
-.photog-green h5,
-.photog-green h6,
-.photog-green .entry-title a,
-.photog-green .sidebar .widget-title a,
-.photog-green .site-title a,
-.photog-green .site-title a:hover,
-.photog-green .genesis-nav-menu a:hover,
-.photog-green .genesis-nav-menu .current-menu-item > a {
+.muse-green a,
+.muse-green h1,
+.muse-green h2,
+.muse-green h3,
+.muse-green h4,
+.muse-green h5,
+.muse-green h6,
+.muse-green .entry-title a,
+.muse-green .sidebar .widget-title a,
+.muse-green .site-title a,
+.muse-green .site-title a:hover,
+.muse-green .genesis-nav-menu a:hover,
+.muse-green .genesis-nav-menu .current-menu-item > a {
 	color: #8ec202;
 }
 
-.photog-green a:hover,
-.photog-green .genesis-nav-menu a,
-.photog-green .genesis-nav-menu .sub-menu .current-menu-item > a,
-.photog-green .genesis-nav-menu .sub-menu a:hover, 
-.photog-green .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.photog-green .widget-title {  
+.muse-green a:hover,
+.muse-green .genesis-nav-menu a,
+.muse-green .genesis-nav-menu .sub-menu .current-menu-item > a,
+.muse-green .genesis-nav-menu .sub-menu a:hover, 
+.muse-green .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.muse-green .widget-title {  
 	color: #fff;
 }
 
-.photog-green input:focus,
-.photog-green textarea:focus {
+.muse-green input:focus,
+.muse-green textarea:focus {
 	border: 1px solid #8ec202;
 }
 
-.photog-green button,
-.photog-green input[type="button"],
-.photog-green input[type="reset"],
-.photog-green input[type="submit"],
-.photog-green .button,
-.photog-green .genesis-nav-menu .sub-menu a,
-.photog-green .archive-pagination li a:hover,
-.photog-green .archive-pagination .active a,
-.photog-green .hover-icon {
+.muse-green button,
+.muse-green input[type="button"],
+.muse-green input[type="reset"],
+.muse-green input[type="submit"],
+.muse-green .button,
+.muse-green .genesis-nav-menu .sub-menu a,
+.muse-green .archive-pagination li a:hover,
+.muse-green .archive-pagination .active a,
+.muse-green .hover-icon {
 	background-color: #8ec202;
 }
 
-.photog-green button:hover,  
-.photog-green input:hover[type="button"],
-.photog-green input:hover[type="reset"],
-.photog-green input:hover[type="submit"],
-.photog-green .button:hover {
+.muse-green button:hover,  
+.muse-green input:hover[type="button"],
+.muse-green input:hover[type="reset"],
+.muse-green input:hover[type="submit"],
+.muse-green .button:hover {
 	background-color: #fff;
 	color: #333;
 }
 
-.photog-green .archive-description,
-.photog-green .author-box {
+.muse-green .archive-description,
+.muse-green .author-box {
 	border-top: 3px solid #8ec202;
 	border-bottom: 1px solid #8ec202;
 }
 
-.photog-green .site-header .wrap {
+.muse-green .site-header .wrap {
 	border-bottom: 3px solid #8ec202;  
 }
 
-.photog-green .genesis-nav-menu {
+.muse-green .genesis-nav-menu {
 	border-bottom: 1px solid #8ec202;  
 }
 
-.photog-green .sidebar .widget,
-.photog-green .footer-widgets .wrap,
-.photog-green .site-footer .wrap {
+.muse-green .sidebar .widget,
+.muse-green .footer-widgets .wrap,
+.muse-green .site-footer .wrap {
 	border-top: 3px solid #8ec202;
 }
 
-.photog-green .genesis-nav-menu .sub-menu a:hover, 
-.photog-green .genesis-nav-menu .sub-menu .current-menu-item > a,
-.photog-green .genesis-nav-menu .sub-menu .current-menu-item > a:hover { 
+.muse-green .genesis-nav-menu .sub-menu a:hover, 
+.muse-green .genesis-nav-menu .sub-menu .current-menu-item > a,
+.muse-green .genesis-nav-menu .sub-menu .current-menu-item > a:hover { 
 	background-color: #7ca902;  
 }
 

@@ -14,10 +14,10 @@ remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 
 //* Add featured image 
 remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
-add_action( 'genesis_entry_header', 'photog_featured_image', 3 );
-function photog_featured_image() {
+add_action( 'genesis_entry_header', 'muse_featured_image', 3 );
+function muse_featured_image() {
 
-	if ( $image = genesis_get_image( 'format=url&size=photog_grid' ) ) {
+	if ( $image = genesis_get_image( 'format=url&size=muse_grid' ) ) {
 		printf( '<div class="hover-icon"><a href="%s" rel="bookmark"><img class="post-photo entry-image aligncenter" src="%s" alt="%s" /></a></div>', get_permalink(), $image, the_title_attribute( 'echo=0' ) );
 	}
  
@@ -34,7 +34,7 @@ function photog_featured_image() {
  * @param object $query
  * @return bool is grid loop (true) or not (false)
  */
-function photog_grid_loop_pagination( $query = false ) {
+function muse_grid_loop_pagination( $query = false ) {
  
 	// If no query is specified, grab the main query
 	global $wp_query;
@@ -56,8 +56,8 @@ function photog_grid_loop_pagination( $query = false ) {
  * @param object $query
  * @return null
  */
-function photog_grid_loop_query_args( $query ) {
-	$grid_args = photog_grid_loop_pagination( $query );
+function muse_grid_loop_query_args( $query ) {
+	$grid_args = muse_grid_loop_pagination( $query );
 	if( $query->is_main_query() && !is_admin() && $grid_args ) {
  
 		// First Page
@@ -74,7 +74,7 @@ function photog_grid_loop_query_args( $query ) {
  
 	}
 }
-add_action( 'pre_get_posts', 'photog_grid_loop_query_args' );
+add_action( 'pre_get_posts', 'muse_grid_loop_query_args' );
  
 /**
  * Grid Loop Post Classes
@@ -85,9 +85,9 @@ add_action( 'pre_get_posts', 'photog_grid_loop_query_args' );
  * @param array $classes
  * @return array $classes
  */
-function photog_grid_loop_post_classes( $classes ) {
+function muse_grid_loop_post_classes( $classes ) {
 	global $wp_query;
-	$grid_args = photog_grid_loop_pagination();
+	$grid_args = muse_grid_loop_pagination();
 	if( ! $grid_args )
 		return $classes;
 		
@@ -125,7 +125,7 @@ function photog_grid_loop_post_classes( $classes ) {
 	
 	return $classes;
 }
-add_filter( 'post_class', 'photog_grid_loop_post_classes' );
+add_filter( 'post_class', 'muse_grid_loop_post_classes' );
  
 /**
  * Fix Posts Nav
@@ -136,13 +136,13 @@ add_filter( 'post_class', 'photog_grid_loop_post_classes' );
  * will be more pages listed on the homepage. This fixes it.
  *
  */
-function photog_fix_posts_nav() {
+function muse_fix_posts_nav() {
 	
 	if( get_query_var( 'paged' ) )
 		return;
 		
 	global $wp_query;
-	$grid_args = photog_grid_loop_pagination();
+	$grid_args = muse_grid_loop_pagination();
 	if( ! $grid_args )
 		return;
  
@@ -150,6 +150,6 @@ function photog_fix_posts_nav() {
 	$wp_query->max_num_pages = $max;
 	
 }
-//add_filter( 'genesis_after_endwhile', 'photog_fix_posts_nav', 5 );
+//add_filter( 'genesis_after_endwhile', 'muse_fix_posts_nav', 5 );
 
 genesis();
