@@ -26,7 +26,7 @@ GPL 2.0 - http://www.gnu.org/licenses/gpl-2.0.html
 
 <h2>Support</h2>
 
-Being a free product, the Muse theme is offered with limited support. If you have any question and/or recommendations, please post your comment in this article http://wpspeak.com/?p=3504
+Being a free product, the Muse theme is offered with limited support. If you have any question and/or recommendations, please post your comment in this article http://wp.me/p33UjS-Va
 <h2>Changelog</h2>
 
 <h3>1.0.0</h3>
