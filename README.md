@@ -10,7 +10,7 @@ Website URL: <a href="http://wpspeak.com/" target="_blank">WPSpeak.com</a>
 
 Twitter: <a href="https://twitter.com/wpspeak" target="_blank">@WPSpeak</a>
 
-Theme demo: <a href="http://demo.wpspeak.com/muse/" target="_blank">Personify Demo</a>
+Theme demo: <a href="http://demo.wpspeak.com/muse/" target="_blank">Muse Demo</a>
 
 <h2>License</h2>
 
@@ -34,7 +34,7 @@ Initial release
 
 <h2>Things To Do</h2>
 - Add theme info link
-- Add .pot file
+- Add translation file file
 
 <h2>Screenshot</h2>
 
