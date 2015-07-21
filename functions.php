@@ -4,7 +4,7 @@ include_once( get_template_directory() . '/lib/init.php' );
 
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'Muse Theme' );
-define( 'CHILD_THEME_URL', 'http://wpspeak.com/themes/muse' );
+define( 'CHILD_THEME_URL', 'http://wpspeak.com/themes/muse-theme/' );
 define( 'CHILD_THEME_VERSION', '1.0.0' );
 
 //* Enqueue Custom Scripts
